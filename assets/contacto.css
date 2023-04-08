@@ -1,0 +1,30 @@
+.contacto{
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+    flex-wrap: wrap;
+    height: 60px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.contacto__desarrollador{
+    color: #da2b1f;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+.contacto__icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-right: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+

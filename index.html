@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/botones.css">
+    <link rel="stylesheet" href="assets/cuerpoEncriptador.css">
+    <link rel="stylesheet" href="assets/headerPrincipal.css">
+    <link rel="stylesheet" href="assets/imagenEncabezado.css">
+    <link rel="stylesheet" href="assets/logo.css">
+    <link rel="stylesheet" href="assets/mensaje.css">
+    <link rel="stylesheet" href="assets/text-area.css">
+    <link rel="stylesheet" href="assets/informacion.css">
+    <link rel="stylesheet" href="assets/contacto.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <div class="content"> 
+        <header class="headerPrincipal">
+	        <img class="logo" src="imagenes/logo_alura.png" alt="logo de alura" >
+            <img class="imagenEncabezado" src="imagenes/hk_encabezado.gif" alt="imagenAnimada">
+        </header>
+    
+        <main class="cuerpoEncriptador">
+            <section class="ingreso">
+                    <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                <div>
+                    <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+        
+            <section class="salida">
+                <div class="botones">
+                    <button class="btn-copiar" onclick="copiar()">Copiar</button>
+                </div>
+                    <textarea class="mensaje" cols="20" rows="10"></textarea>
+                
+                
+                <div class="contacto">
+                    <a class="contacto__icons" href="https://www.linkedin.com/in/juan-manuel-carracedo"><img src="imagenes/logo_linkedin.png" alt="linkedin"> </a>
+                    <a class="contacto__icons" href="https://github.com/JMCarracedo"><img src="imagenes/logo_github.png" alt="github"></a>            
+                    <p class="contacto__desarrollador">&copy;J.M. Carracedo 2023</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

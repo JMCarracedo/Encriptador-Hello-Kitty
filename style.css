@@ -1,0 +1,23 @@
+
+*{
+    font-family: 'Inter';
+    font-family: Pacifico, cursive;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+    
+.content{
+    background-image: url(imagenes/2bsB271.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+
+

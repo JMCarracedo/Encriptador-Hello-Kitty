@@ -1,0 +1,94 @@
+@media screen and (min-width: 0px) {
+    .mensaje{
+    
+        background-image: url("../imagenes/hk_mensaje.gif");
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0.85; 
+        height: 275px;
+        width: 275px;
+        border: none;
+        border-radius: 24px;
+        color: #f759d8;
+        background-size: 50%;
+        margin-left: 100px;
+        margin-top: 30px;
+        padding-left: 2px;
+        font-weight: bold;
+        margin-right: 100px;
+
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .mensaje{
+    
+        background-image: url("../imagenes/hk_mensaje.gif");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50%;
+        opacity: 0.85; 
+        height: 375px;
+        width: 375px;
+        border: none;
+        border-radius: 24px;
+        color: #f759d8;
+        margin-left: 100px;
+        margin-top: 30px;
+        padding-left: 2px;
+        font-weight: bold;
+        margin-right: 100px;
+        
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .mensaje{
+    
+        background-image: url("../imagenes/hk_mensaje.gif");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50%;
+        opacity: 0.85; 
+        height: 250px;
+        width: 375px;
+        border: none;
+        border-radius: 24px;
+        color: #f759d8;
+        margin-left: 30px;
+        margin-top: 10px;
+        padding-left: 2px;
+        font-weight: bold;
+        margin-right: 50px;
+ 
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .mensaje{
+    
+        background-image: url("../imagenes/hk_mensaje.gif");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50%;
+        opacity: 0.85; 
+        height: 250px;
+        width: 420px;
+        border: none;
+        border-radius: 24px;
+        color: #f759d8;
+        margin-left: 100px;
+        margin-top: 30px;
+        padding-left: 2px;
+        font-weight: bold;
+        margin-right: 100px;
+    }
+}
+
+
+.mensaje:focus {
+    outline: none;
+}
